@@ -1,0 +1,15 @@
+
+.box {
+  display: inline-block;
+  margin: 10px;
+  opacity: 0.7;
+  transition: background-color 200ms ease-in, opacity 200ms ease-in;
+  padding: 5px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.box:hover {
+  background-color: #fddb3a;
+  opacity: 1;
+}
