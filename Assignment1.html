@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f0f0f0;
+    }
+    .profile-card {
+      background: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 300px;
+    }
+    .profile-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    .profile-card a {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 15px;
+      background: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .profile-card a:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <img src="https://via.placeholder.com/100" alt="Profile Picture">
+    <h1>John Doe</h1>
+    <p>Frontend Developer | JavaScript Enthusiast</p>
+    <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+  </div>
+</body>
+</html>
