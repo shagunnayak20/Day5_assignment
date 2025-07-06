@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #ff7e5f, #feb47b);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .product-info, .features, .testimonials, footer {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .features {
+      background-color: #f9f9f9;
+    }
+    .testimonials {
+      background-color: #eee;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ff7e5f;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #e85b3a;
+    }
+    @media (max-width: 600px) {
+      header, .product-info, .features, .testimonials, footer {
+        padding: 20px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SmartGizmo X100</h1>
+    <p>Revolutionize your life with the power of innovation</p>
+  </header>
+
+  <section class="product-info">
+    <h2>Product Info</h2>
+    <p>The SmartGizmo X100 is designed to simplify your daily tasks with smart AI integration and long battery life.</p>
+    <a href="#" class="btn">Buy Now</a>
+  </section>
+
+  <section class="features">
+    <h2>Features</h2>
+    <ul>
+      <li>24/7 Smart Assistant</li>
+      <li>Up to 48-hour battery life</li>
+      <li>Voice & Gesture Control</li>
+    </ul>
+  </section>
+
+  <section class="testimonials">
+    <h2>What Our Users Say</h2>
+    <p>"The SmartGizmo X100 changed how I manage my day!" - Alex</p>
+    <p>"Incredible device and sleek design. A must-have!" - Jamie</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SmartGizmo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
